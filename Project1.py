@@ -1,4 +1,5 @@
 import sys,time
+import colorama
 def tex(teks):
     for i in teks + "\n":
         sys.stdout.write(i)
@@ -30,7 +31,7 @@ tex("||||||||||||||||||")
 def menu():
     print("---------Menu Utama--------")
     print("1.OperasiHitungSederhana")
-    print("2.BangunDatar")
+    print("2.BangunDat6ar")
     print("3.BangunRuang")
     print("---------------------------")
 
@@ -529,7 +530,7 @@ elif pilih == 2:
     Bangundatar()
     
 elif pilih == 3:
-    BangunRuang()    
+    Bangunruang()    
 
 else:
     print(pilih,"Tidak Ada Dalam Menu")
